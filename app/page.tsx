@@ -67,7 +67,7 @@ export default function LandingPage() {
           </div>
           <nav className="hidden md:flex gap-6">
             <a href="#" className="text-[#FFD700] hover:text-white transition-colors">
-              Home
+              Accueil
             </a>
             <a href="#qui-sommes-nous" className="text-[#FFD700] hover:text-white transition-colors">
               Qui sommes-nous?
@@ -76,7 +76,7 @@ export default function LandingPage() {
               Services
             </a>
             <a href="#players" className="text-[#FFD700] hover:text-white transition-colors">
-              Players
+              Joueuses
             </a>
             <a href="#contact" className="text-[#FFD700] hover:text-white transition-colors">
               Contact
@@ -121,10 +121,10 @@ export default function LandingPage() {
             />
           </div>
           <div className="container relative z-20 px-4 md:px-6 flex flex-col items-center text-center">
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tighter mb-4">Women's sports agency</h1>
-            <p className="text-xl md:text-2xl mb-6 max-w-2xl">Your talent is my priority</p>
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tighter mb-4">Agence de sport féminin</h1>
+            <p className="text-xl md:text-2xl mb-6 max-w-2xl">Votre talent est ma priorité</p>
             <blockquote className="italic text-lg md:text-xl mb-8 max-w-2xl border-l-4 border-[#FFD700] pl-4">
-              "Be confident in your ability to reach your highest potential!"
+              "Ayez confiance en votre capacité à atteindre votre plus haut potentiel!"
               <footer className="text-[#FFD700] mt-2 text-right">— Angela Verdoes</footer>
             </blockquote>
             <Button asChild className="bg-[#FFD700] hover:bg-[#FFD700]/90 text-black">
@@ -231,14 +231,13 @@ export default function LandingPage() {
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl md:text-4xl font-bold text-[#FFD700] text-center mb-12">Nos Joueuses</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* Placeholder for player cards - will be populated later */}
               <div className="bg-gray-900 rounded-lg overflow-hidden">
-                <div className="h-64 bg-gray-800 flex items-center justify-center">
-                  <span className="text-gray-600">Photo</span>
+                <div className="h-64 relative">
+                  <Image src="/linapic.PNG" alt="Haulani Lina" fill className="object-cover" />
                 </div>
                 <div className="p-4">
-                  <h3 className="text-xl font-bold text-[#FFD700]">Nom de la joueuse</h3>
-                  <p className="text-gray-400">Position • Club</p>
+                  <h3 className="text-xl font-bold text-[#FFD700]">Haulani Lina</h3>
+                  <p className="text-gray-400">DD/MC/MOC • WYDAD CASABLANCA</p>
                 </div>
               </div>
               <div className="bg-gray-900 rounded-lg overflow-hidden">
@@ -273,8 +272,8 @@ export default function LandingPage() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/9c34e814-72af-4ffb-9c09-59d3e1b154f1.jpg-3Eq0T0GBVqOzWt3MIbJF9vMS8JPgVG.jpeg"
-                  alt="Women's football players in action"
+                  src="/notreApproche.jpg"
+                  alt="Notre approche du football féminin"
                   width={600}
                   height={400}
                   className="rounded-lg"
